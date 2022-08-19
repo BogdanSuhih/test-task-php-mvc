@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    flex: 1;
+    padding: 30px;
+}
+header, footer {
+    padding: 5px 30px;
+    flex: 0 0 auto;
+    background-color:rgb(159, 159, 170);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 0;
+    display: flex;
+    
+}
+a {
+    color: rgb(0,0,238);
+}
+nav a {
+    font-weight: 700;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+nav li {
+    margin: 10px;
+}
+.form_wrapper {
+    margin: 0 auto;
+    width: min-content;
+}
+.form_wrapper input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.auth-btn,
+.reg-btn{
+    margin:10px 0;
+}
+.error {
+    color: red;
+    background-color: darkkhaki;
+    text-align: center;
+}
+.reg_error {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.instruction{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.block_record,
+.block_welcome *,
+.add_record {
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+.block_record {
+    float: right;
+}
+.block_main  {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    /* max-width: 900px; */
+    height: 100%;
+}
